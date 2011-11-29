@@ -7,6 +7,7 @@ import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.tagext.TagSupport;
 
 public class SubstrTagHandler extends TagSupport {
+	
 	private String input;
 
 	private int start;
